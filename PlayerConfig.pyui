@@ -1,0 +1,523 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 25}, {410, 115}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "HoeflerText-Italic",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "EntityFall",
+          "alignment" : "center",
+          "uuid" : "03C59DB1-FD9B-493B-8B8F-894673E0EBB7",
+          "font_size" : 100,
+          "name" : "label1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 148}, {410, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA966B3A-37CC-450E-B95A-CD53CA237652",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG'),\n'enabled': False}",
+          "title" : "",
+          "alignment" : "left",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{363, 148}, {138, 77}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 19,
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "Nom du Joueur:",
+          "alignment" : "center",
+          "uuid" : "A6608312-AD85-4919-AB7C-04D455817190",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{509, 171}, {128, 34}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "Player",
+          "action" : "playerName_touched",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "uuid" : "BF3BBC93-9EFA-4889-A61B-DBD0D5C631E0",
+          "class" : "TextField",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "font_size" : 17,
+          "name" : "textfield1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 250}, {512, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "F0621252-BB02-4254-8874-441BA36B4221",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG'),\n'enabled': False}",
+          "title" : "",
+          "alignment" : "left",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "button2",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 250}, {512, 77}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 20,
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "Nombres d’entités controllées:",
+          "alignment" : "center",
+          "uuid" : "EDA9D6C4-3F32-4BBA-B9E2-5F634373AEB3",
+          "name" : "label3",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 343}, {512, 54}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "flex" : "LR",
+          "border_width" : 1,
+          "segments" : "1 entités | 2 entités | 3 entités",
+          "tint_color" : "RGBA(0.509434,0.509434,0.509434,1.000000)",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "action" : "entityBar_touched",
+          "class" : "SegmentedControl",
+          "corner_radius" : 10,
+          "uuid" : "C4986462-E348-47E9-9E39-73C22AB467CF",
+          "name" : "EntityNb_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 435}, {512, 83}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "D629CC42-65E6-419F-B6A2-27BC7812D227",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG'),\n'enabled': False}",
+          "title" : "",
+          "alignment" : "left",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "button3",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 545}, {512, 54}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "flex" : "LR",
+          "border_width" : 1,
+          "segments" : "Équipe Bleue | Équipe Rouge",
+          "tint_color" : "RGBA(0.509434,0.509434,0.509434,1.000000)",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "action" : "teamButton_touched",
+          "class" : "SegmentedControl",
+          "corner_radius" : 10,
+          "uuid" : "9E21012C-0ECB-4B8B-95DC-7111368B70AA",
+          "name" : "segmentedcontrol2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 435}, {512, 77}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 30,
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "Équipe du Joueur:",
+          "alignment" : "center",
+          "uuid" : "5A9925DA-AC1B-4A5E-9EFA-8EB633488B62",
+          "name" : "label4",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 615}, {255, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "BAB6C852-0901-4ABE-A81C-9CBBD355B0F8",
+          "font_size" : 60,
+          "corner_radius" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "segments" : "1 entity | 2 entities | 3 entities",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "title" : "Retour",
+          "alignment" : "left",
+          "action" : "back_touched",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_bold" : true,
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "button4",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 615}, {255, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "5BBF098A-2352-4EC2-BDA0-521C254B3D3B",
+          "font_size" : 60,
+          "corner_radius" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "segments" : "1 entity | 2 entities | 3 entities",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "title" : "Suivant",
+          "alignment" : "left",
+          "action" : "next_touched",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_bold" : true,
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "next_button",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{256, 700}, {512, 60}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "errorLabel",
+          "text_color" : "RGBA(1.000000,-0.033333,-0.033333,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "7E5FFD0F-BA1E-4789-83E0-D855D3AEACD7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{645, 172}, {72, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 0,
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "( 1\/x )",
+          "alignment" : "left",
+          "uuid" : "CE07FCBF-98C5-4F51-968A-8624BAA81299",
+          "name" : "PlayerNumber",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "14F7187A-81F4-47C2-A940-4A5D4124D64C",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player3Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo3Blue",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "8503CCEF-696A-4DB1-8D81-54C6BC33B5E7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo2Blue",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4533C061-29EC-41C6-B4F4-572291F34194",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo1Blue",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "B3AE39B9-E00D-4EAD-88DE-63288B100C90",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo3Red",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0BAE6878-F56B-4799-B33F-F3E367E9AE0C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{813, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo2Red",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1F74B2E1-B645-4D61-A5F6-F1CA9E8DF9C3",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{901, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo1Red",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1A11D7A2-6C1A-4DC4-9EFB-B442AC28943C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "CDF58176-43DB-44F3-91A9-F83BB82DA254",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player3Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{813, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "B30CCA9D-AF70-4FB9-BB4D-AD48D511C845",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player2Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{901, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "F21BD76C-FB15-4449-91A9-7D1B714B006E",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player1Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "2847AFCA-3E86-49DA-981D-A3E9ED72EB6D",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player2Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "7F5E3B37-3265-48C1-85AD-D9CD9E4D7E35",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player1Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

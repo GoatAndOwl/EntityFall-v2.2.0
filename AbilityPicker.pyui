@@ -1,0 +1,968 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 430}, {293, 228}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "corner_radius" : 0,
+          "class" : "View",
+          "uuid" : "7BDDACE2-888A-4423-97A4-A7134BBAA56F",
+          "background_color" : "RGBA(0.900943,0.900943,0.900943,1.000000)",
+          "name" : "view4"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 201}, {293, 227}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "corner_radius" : 0,
+          "class" : "View",
+          "uuid" : "C38A2324-A1CA-4756-8E34-981C009E100A",
+          "background_color" : "RGBA(0.900943,0.900943,0.900943,1.000000)",
+          "name" : "view3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 430}, {293, 228}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "corner_radius" : 0,
+          "class" : "View",
+          "uuid" : "B9AA3318-EAE4-44BB-AE1D-0B119B3404F2",
+          "background_color" : "RGBA(0.900943,0.900943,0.900943,1.000000)",
+          "name" : "view2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 200}, {293, 228}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "B4B4CD86-D5FA-46D9-8588-875B25152F7F",
+          "background_color" : "RGBA(0.900943,0.900943,0.900943,1.000000)",
+          "name" : "view1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 25}, {410, 115}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "HoeflerText-Italic",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "EntityFall",
+          "alignment" : "center",
+          "uuid" : "64097313-ABEB-476F-853C-5EC17C6593BB",
+          "name" : "label1",
+          "font_size" : 100
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 154}, {410, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA7875F3-0FFF-4ED9-AF4D-8FF16C29DD37",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG'),\n'enabled': False}",
+          "title" : "",
+          "alignment" : "left",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 154}, {410, 44}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 20,
+          "font_name" : "<System>",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "Choisissez vos capacités:",
+          "alignment" : "center",
+          "uuid" : "A73EA2B9-D4DB-440A-A465-7F46E8BFDE6F",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 200}, {204, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "6270F3BA-ACF6-4F55-806D-0EBB6EE1EDAC",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 614}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "939F34DF-CD87-4D17-ABF2-E91689EB06C1",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_10"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 568}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "F58604CE-72B3-4BF1-906D-EDD5381F1C2F",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_9"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 522}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "8A84B8A5-0462-4F4C-8F7F-069B73062E79",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_8"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 476}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "1A491B09-1561-4759-8EF8-9251E61B41CF",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_7"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 384}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "5B581FD4-6280-4248-9E0D-B8AE7E093650",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_5"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 430}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "E3A28C8C-FF5F-45AE-92A1-13C6CE7B8A0F",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_6"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 338}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "A285E63F-FBAC-404E-B29B-DB1B0F6F33CB",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_4"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 246}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "E5524153-1C49-4F02-B633-30331B08C19F",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 292}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ability_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Ability 1",
+          "uuid" : "BF255C20-61C4-4DDF-86C2-3A19C716FE99",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 20,
+          "name" : "ability_3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 660}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "96BB6771-CCA4-4EBC-BD3F-E025DC23EDA7",
+          "corner_radius" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "title" : "Retour",
+          "action" : "back_touched",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button12",
+          "font_size" : 25
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{513, 706}, {204, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "B87D0B9A-DAB4-4EB9-9C25-EBFF4C8034A7",
+          "corner_radius" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "title" : "Suivant",
+          "action" : "next_touched",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "next_button",
+          "font_size" : 25
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 200}, {204, 90}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "passive_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Passive 1",
+          "uuid" : "46BE8409-3731-4D3B-8967-B71033FAC111",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 30,
+          "name" : "passive_1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 292}, {204, 90}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "passive_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Passive 1",
+          "uuid" : "88102F4B-66B2-4EBA-87A8-7750DA1042CB",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 30,
+          "name" : "passive_2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 384}, {204, 90}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "passive_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Passive 1",
+          "uuid" : "F55532C2-AC10-4D9C-AB8D-65AB1751F944",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 30,
+          "name" : "passive_3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 476}, {204, 90}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "passive_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Passive 1",
+          "uuid" : "0B0A488E-A417-4352-878B-0C2C8094FF0B",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 30,
+          "name" : "passive_4"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 568}, {204, 90}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "passive_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Passive 1",
+          "uuid" : "A1354F7C-B772-418D-B352-D28B238F86A6",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 30,
+          "name" : "passive_5"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 660}, {204, 90}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "passive_touched",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Passive 1",
+          "uuid" : "7B60E5A1-6B72-4C60-8763-522AAA9CC8DA",
+          "font_bold" : true,
+          "class" : "Button",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "font_size" : 30,
+          "name" : "passive_6"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{727, 202}, {289, 224}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "4CEEBAC2-9F38-4667-929F-EFE6AF8DF41F",
+          "corner_radius" : 0,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "number_of_lines" : 10,
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "text" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_name" : "Helvetica",
+          "class" : "Label",
+          "name" : "abilityText1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{727, 432}, {289, 224}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "C0299A83-AEF5-44B2-BC6F-B55A69C40488",
+          "corner_radius" : 0,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 0,
+          "number_of_lines" : 10,
+          "alignment" : "left",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "",
+          "font_name" : "Helvetica",
+          "class" : "Label",
+          "name" : "abilityText2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{729, 626}, {120, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "abilityCost2",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0EFEA23B-34CA-48C0-8F8F-21C045D1CF7A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{894, 626}, {120, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "abilityRange2",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0EBA81C2-89D2-413B-BDCE-AFBA1FF144A6",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{729, 396}, {120, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "abilityCost1",
+          "text_color" : "RGBA(0.070755,0.070755,0.070755,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "43F06952-4770-4B8F-ACA0-28E21A655CE8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "number_of_lines" : 1,
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{894, 396}, {120, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "abilityRange1",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "82A490CC-E9E4-47A2-A4C2-35D81E3359B9",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "",
+          "number_of_lines" : 1,
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 202}, {293, 36}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 28,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A44521DA-CBB2-4C20-A94F-D6FFB349CE03",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "number_of_lines" : 4,
+          "name" : "abilityName1",
+          "font_name" : "HoeflerText-Italic"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 432}, {293, 36}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 28,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "858461D6-3304-44A1-8791-9287033C2ECE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "abilityName2",
+          "font_name" : "HoeflerText-Italic"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 203}, {289, 223}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "60BDEC68-99B0-4062-A94D-DEAF02649701",
+          "corner_radius" : 0,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "number_of_lines" : 10,
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "text" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_name" : "Helvetica",
+          "class" : "Label",
+          "name" : "PassiveText1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 432}, {289, 224}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "2DAA3328-FAA4-4DA9-A581-C6422830E5DB",
+          "corner_radius" : 0,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "number_of_lines" : 10,
+          "border_width" : 0,
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "text" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_name" : "Helvetica",
+          "class" : "Label",
+          "name" : "PassiveText2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 203}, {293, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 28,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "102BF855-45F0-4BAB-9997-6AEFB378EE98",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "number_of_lines" : 4,
+          "name" : "PassiveName1",
+          "font_name" : "HoeflerText-Italic"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 432}, {293, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "PassiveName2",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "2BA2EF60-3CE2-45B0-A3D7-5AB115BFF962",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "number_of_lines" : 4,
+          "font_size" : 28,
+          "font_name" : "HoeflerText-Italic"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "1D3C75ED-B69F-4C3A-8838-8A4D16C30CD7",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player3Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "4787907C-B3AF-411A-9CFE-60882BA38912",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player2Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "4073F123-9F32-4E0D-B871-8003E6072A4A",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player1Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "A6A3D88A-0B08-435B-B63A-4CB2A5D21665",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player3Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{813, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "1006CEE4-5A28-4792-8FF1-0FA558DE3790",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player2Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{901, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "750C5B45-028D-4C91-81D7-E73875F58619",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player1Red",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo3Red",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A0B7EC6D-18C9-43A1-B705-FEA4B347E26A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{813, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo2Red",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "2A6B86D7-4B50-49AB-AE3C-ABBCADA9C6F6",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{901, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo1Red",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D508D1BB-D1F6-4A61-97D1-77AA5CF4A7C0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo3Blue",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "8ECFC67B-DA2C-4EC9-BF28-DE8C1343F1D4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo2Blue",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A08F3F5F-F9AB-4276-AC71-0510380559AD",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Pseudo1Blue",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "29ECF174-810F-4E3F-84E4-CA8DCF4FFACF",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 11,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

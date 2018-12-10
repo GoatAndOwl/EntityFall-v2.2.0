@@ -1,0 +1,475 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 25}, {410, 115}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "HoeflerText-Italic",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "EntityFall",
+          "alignment" : "center",
+          "uuid" : "625040E9-B440-42CA-AF26-8DBDA457A709",
+          "name" : "label1",
+          "font_size" : 100
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{333, 154}, {358, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "90B873A2-7CAB-4122-8F4A-CCF328651C33",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG'),\n'enabled': False}",
+          "title" : "",
+          "alignment" : "left",
+          "text" : "Player Name:",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{333, 154}, {358, 77}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "class" : "Label",
+          "text" : "[Player], choisissez votre classe:",
+          "alignment" : "center",
+          "uuid" : "D4A88FBE-5A60-4081-9612-C97C13CAA174",
+          "name" : "playerWord",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 6}, {172, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "65777FE1-DA9D-4E4C-8808-57D128D073E1",
+              "corner_radius" : 0,
+              "frame" : "{{52, 239}, {80, 32}}",
+              "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+              "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+              "border_width" : 0,
+              "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+              "title" : "Viking",
+              "action" : "class_touched",
+              "alpha" : 1,
+              "font_bold" : true,
+              "class" : "Button",
+              "name" : "Viking",
+              "font_size" : 30
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 64}, {172, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "083A68DE-F71D-4477-819E-AB5D63DE34DB",
+              "corner_radius" : 0,
+              "frame" : "{{52, 239}, {80, 32}}",
+              "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+              "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+              "border_width" : 0,
+              "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+              "title" : "Thermal Mage",
+              "action" : "class_touched",
+              "alpha" : 1,
+              "font_bold" : true,
+              "class" : "Button",
+              "name" : "ThermalMage",
+              "font_size" : 22
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 122}, {172, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "62E3D4B1-5F58-4C74-9D78-1F6D57175E3F",
+              "corner_radius" : 0,
+              "frame" : "{{52, 239}, {80, 32}}",
+              "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+              "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+              "border_width" : 0,
+              "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+              "title" : "Marshal",
+              "action" : "class_touched",
+              "alpha" : 1,
+              "font_bold" : true,
+              "class" : "Button",
+              "name" : "Marshal",
+              "font_size" : 30
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 180}, {172, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "DEE08A54-FAEF-4035-A3A0-903240E569D7",
+              "corner_radius" : 0,
+              "frame" : "{{52, 239}, {80, 32}}",
+              "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+              "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+              "border_width" : 0,
+              "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+              "title" : "Paladin",
+              "action" : "class_touched",
+              "alpha" : 1,
+              "font_bold" : true,
+              "class" : "Button",
+              "name" : "Paladin",
+              "font_size" : 30
+            },
+            "selected" : true
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 238}, {172, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "613C6BF1-CF58-483E-B5C0-4A91F49F6846",
+              "corner_radius" : 0,
+              "frame" : "{{52, 239}, {80, 32}}",
+              "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+              "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+              "border_width" : 0,
+              "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG'),\n\"enabled\": False}",
+              "title" : "C0M1NG S00N",
+              "action" : "",
+              "alpha" : 1,
+              "font_bold" : true,
+              "class" : "Button",
+              "name" : "button5",
+              "font_size" : 20
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{420, 269}, {184, 294}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "uuid" : "DCBC3455-3272-4B91-98EF-3FED1B70E26B",
+          "corner_radius" : 0,
+          "content_height" : 510,
+          "frame" : "{{352, 224}, {320, 320}}",
+          "border_width" : 1,
+          "content_width" : 184,
+          "alignment" : "center",
+          "text" : "",
+          "font_name" : "HoeflerText-Italic",
+          "class" : "ScrollView",
+          "name" : "classScrollView",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{189, 614}, {307, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CCE7F318-511B-48BE-A9FF-E06688DBF438",
+          "font_size" : 60,
+          "corner_radius" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+          "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "title" : "Retour",
+          "action" : "back_touched",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button2",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{517, 614}, {307, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "A0A28A7B-C4E9-4531-ADCF-881BE1B70FA4",
+          "corner_radius" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "border_color" : "RGBA(0.366667,0.788889,1.000000,1.000000)",
+          "tint_color" : "RGBA(1.000000,0.966667,0.966667,1.000000)",
+          "border_width" : 0,
+          "custom_attributes" : "{'background_image':ui.Image.named('IMG_0994.PNG')}",
+          "title" : "Suivant",
+          "action" : "next_touched",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "next_button",
+          "font_size" : 60
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "04B043BA-9E16-474C-9591-C30730AD1E6E",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player1Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "588AE54D-3A61-421B-9CA6-35C924385026",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player2Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "0AF81631-E6DE-454E-B0E8-0F93D6EF2938",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player3Blue",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "E911E2BF-32F2-48F3-8D33-922338BE7368",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player3Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{813, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "E14C7968-1774-4D5E-88DF-5F2B17453001",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player2Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{901, 60}, {80, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "89CC6E43-BE94-4896-A117-355815371938",
+          "custom_attributes" : "{\"enabled\": False}",
+          "class" : "Button",
+          "name" : "Player1Red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 11,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "59EA16CA-FEE1-45B7-B973-423FEDC45034",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "Pseudo3Blue",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 11,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E7341E15-BAC7-4366-AFDA-FFD749E04570",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "Pseudo2Blue",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 11,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4182DD95-1896-4F80-AECC-87731D981103",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "Pseudo1Blue",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{725, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 11,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "29FFDACC-86C3-44BA-91F8-49FFAE6F358E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "Pseudo3Red",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{813, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 11,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A05F3D25-9213-4941-BF70-31B184EDB37E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "Pseudo2Red",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{901, 148}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 11,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0532ADE3-BCEB-43AE-A39A-E36FE12F061D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "Pseudo1Red",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
