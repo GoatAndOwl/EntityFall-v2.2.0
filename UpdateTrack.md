@@ -1,6 +1,6 @@
 -------------------------------------------------
 fichier listant les différentes mises à jour 
-et patchs depuis le lancement de la version 1.0.0
+et patchs depuis le lancement de la version 1.0.0 aaaaaaa
 -------------------------------------------------
 Mise à Jour v2.1.0:
 Bugs résolus:
